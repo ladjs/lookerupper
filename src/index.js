@@ -61,7 +61,7 @@ app.dock.hide();
 
 // enable auto-start if we can
 autoStart.isEnabled((enabled) => {
-	if (enabled) return;
+  if (enabled) return;
   autoStart.enable((err) => {
     if (err)
       return dialog.showErrorBox('Auto start issue', err.message);
