@@ -73,7 +73,7 @@ async function getSelection() {
   let selection = clipboard.readText('selection');
   clipboard.clear('selection');
 
-  // trim, remove quotes and parens, replace spaces with dash, toLowerCase()
+  // trim, remove semis/quotes/parens, replace spaces with dash, toLowerCase()
   // <https://docs.npmjs.com/files/package.json#name>
   selection = selection
     .trim()
