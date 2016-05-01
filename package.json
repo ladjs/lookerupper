@@ -1,6 +1,6 @@
 {
   "name": "lookerupper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Copy to your clipboard a package's name and use `CmdOrCtrl+Shift+L` to lookup its documentation on GitHub",
   "main": "build/index.js",
   "scripts": {
